@@ -1,0 +1,18 @@
+{
+  "name": "notify-and-redirect-function",
+  "version": "1.0.0",
+  "description": "Provide a link redirect to any URL with sending Slack notification",
+  "main": "dist/index.js",
+  "author": "morishin",
+  "license": "MIT",
+  "scripts": {
+    "dev": "netlify-lambda serve src -p 9090",
+    "build": "netlify-lambda build src"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "netlify-lambda": "^1.6.3"
+  }
+}
